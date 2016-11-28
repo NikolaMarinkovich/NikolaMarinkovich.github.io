@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#meni_mob").click(function(){
+        $("#ul").css("display", "block");
+		$("#meni_mob").css("display", "none");
+		$("#zatvaranje").css("display", "block");
+    });
+	
+	$("#zatvaranje").click(function(){
+        $("#ul").css("display", "none");
+		$("#meni_mob").css("display", "block");
+		$("#zatvaranje").css("display", "none");
+    });
+	
+	
+	
+});
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="desk2.css">
+<link rel='stylesheet'  href='mobile2.css' />
+
+</head>
+<body>
+	<div id="page_wrap">
+		<header class="prvi_head">
+			<div id="head" class="prvi_head_logo">
+				<img src="elements/diwanee-logo.png"/>
+				
+				
+				<!-- za mob -->
+				<div class="mobile_nav">
+				<img id ="meni_mob" src="elements/menu.svg"/>
+				<img id="zatvaranje" style="display:none;" src="elements/delete.png"/>
+					<ul  id="ul" class="padajuci_nav">
+						<li>O NAMA</li>
+						<li>POSLOVI</li>
+						<li>KONTAKT</li>
+					</ul>
+				</div>
+				<!--kraj za mob -->
+				
+				
+			</div><div id="head" class="prvi_head_nav">
+				<ul id="navigacija_meni">
+					<li><a href="#">O NAMA</a></li>
+					<li><a href="#">POSLOVI</a></li>
+					<li><a href="#">KONTAKT</a></li>
+				</ul>
+			</div>
+			
+			<h1>DIWANEE SERBIA</h1>
+			<div class="mala_linija"></div>
+			<article class="article_prvi_head">
+				Digital Media Agency always looking for motivated,<br/>
+				multi-talented, and organized people to join our <br/>
+				diverse team.
+			</article>
+			
+		</header>
+		
+		<header class="drugi_head">
+			<div id="drugi_head_div1" class="drugi_head_div">
+				
+				<img src="elements/triangle.png">
+				
+				<h6>DEVELOPEMENT</h6>
+				
+				<div class="mala_linija2"></div>
+				
+				<article class="article_drugi_head">
+					Front End devolper play a critical role in most projects at Code and Theory. 
+					They are actively involved through the project life cycle, often times starting with rapid prototypes early in designe phase.
+				</article>
+				
+			</div><div id="drugi_head_div2" class="drugi_head_div">
+				
+				<img src="elements/oval.png">
+				
+				<h6>WEB&UI DESIGNE</h6>
+				
+				<div class="mala_linija2"></div>
+				
+				<article class="article_drugi_head">
+					Front End devolper play a critical role in most projects at Code and Theory. 
+					They are actively involved through the project life cycle, often times starting with rapid prototypes early in designe phase.
+				</article>
+				
+				
+			</div><div id="drugi_head_div3" class="drugi_head_div">
+				
+				<img src="elements/rectangle .png">
+				
+				<h6>WORK IN TEAM</h6>
+				
+				<div class="mala_linija2"></div>
+				
+				<article class="article_drugi_head">
+					Front End devolper play a critical role in most projects at Code and Theory. 
+					They are actively involved through the project life cycle, often times starting with rapid prototypes early in designe phase.
+				</article>
+				
+			</div>	
+		</header>
+		
+		<main class="poslovi">
+			<h5>otvorene pozicije</h5>
+			<h3>POSLOVI</h3>
+			<div class="mala_linija"></div>
+			<article>
+			We are always looking for motivated, multi-talented, and <br/>
+			organized people to join our deverse team'
+			</article>
+			
+			
+			<section id="posao1">
+				
+				<h4>FRONT-END DEVELOPER</h4>
+				<p>
+					Trazimo front-end Devealpoera sa odlicnim poznavanjem i iskustvom<br/>
+					vise od godinu dana u Drupalu.
+				</p>
+				
+				<button class="prijava">PRIJAVI SE</button>
+				
+				<button id="prvo_dugme" class="button">#HTML</button>
+				<button class="button">#CSS</button>
+				<button class="button">#JavaScript</button>
+				<div id="razmak"></div>
+				
+			</section>
+			
+			
+			<section id="posao2">
+			
+			
+				<h4>PROJECT-MANAGER</h4>
+				<p>
+					Trazimo front-end Devealpoera sa odlicnim poznavanjem i iskustvom<br/>
+					vise od godinu dana u Drupalu.
+				</p>
+				
+				<button class="prijava2">PRIJAVI SE</button>
+				
+				<button id="prvo_dugme" class="button2">#HTML</button>
+				<button class="button2">#CSS</button>
+				<button class="button2">#JavaScript</button>
+				<div id="razmak"></div>
+				
+			
+			</section>
+			
+			<section id="posao3">
+			
+				
+				<h4>UX-DESIGNER</h4>
+				<p>
+					Trazimo front-end Devealpoera sa odlicnim poznavanjem i iskustvom<br/>
+					vise od godinu dana u Drupalu.
+					
+					
+				</p>
+				
+				<button class="prijava">PRIJAVI SE</button>
+				
+				<button id="prvo_dugme" class="button">#HTML</button>
+				<button class="button">#CSS</button>
+				<button class="button">#JavaScript</button>
+				
+				
+				
+				<div id="razmak"></div>
+				
+				
+			
+			</section>
+			
+			
+			
+			<div id="dugme_ucitaj_jos">
+				<button class="ucitaj_jos">UCITAJ JOS</button>
+			</div>
+			
+		</main>
+		
+		<main class="digital_media">
+			<h5>DIWANEE BEOGRAD</h5>
+			<h3>DIGITAL MEDIA COMPANY</h3>
+			<div class="mala_linija"></div>
+			<article>
+				Diwanee je digitalna medijska kompanija, okrenuta velikoj zenskoj publici na Bliskom Istoku.
+				Naša kompanija stvara i distribuira originalan, visoko kvalitetan pouzdan sadržaj.
+				Diwanee je takođe partner sa YouTube - om, i zajedno
+				smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske 
+				žene širom sveta.
+				<br/>
+				Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru.
+				Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.
+				
+			</article>
+			
+			<div class="pratite_nas">
+				<h5>PRATITE NAS</h5>
+				<a href="https://twitter.com/"><img src="elements/twitt.png" id="twiter"/></a>
+				<a href="https://facebook.com"><img src="elements/fb.png" id="face"/></a>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="footer_vrh">
+				<div class="footer_vrh_div">
+					<div class="footer_vrh_div_unutra">
+						<img src="elements/place-pin-ico.png"/>
+						<p>DUBAI</p>
+						<article>
+							Office park, Building Block A <br/>
+							Units A301-A302<br/>
+							Dubai Internet City<br/>
+							T: 9714-434 7147
+						</article>
+					</div>
+					
+				</div><div class="footer_vrh_div">
+					<div class="footer_vrh_div_unutra">
+						<img src="elements/place-pin-ico.png"/>
+						<p>BEIRUT</p>
+						<article>
+							Office park, Building Block A <br/>
+							Units A301-A302<br/>
+							Dubai Internet City<br/>
+							T: 9714-434 7147
+						</article>
+					</div>	
+				</div><div class="footer_vrh_div">
+					<div class="footer_vrh_div_unutra">
+						<img src="elements/place-pin-ico.png"/>
+						<p>BELGRADE</p>
+						<article>
+							Resavska 33 <br/>
+							11000 Beograd<br/>
+							Tel: +381 11-3340 117<br/>
+						</article>
+					</div>	
+				</div>
+				
+			</div><div class="footer_dno">
+				<div class="dno_div" id="levi">
+					<p>COPYRIGHT © 2015 DAWINEEE SERBIA ALL RIGHTS RESERVED</p>
+				</div><div class="dno_div" id="desni">
+					<i id="linkedin_icon" class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+					<i id="twiter_icon" class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+					<span>www.diwanee.com </span>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
